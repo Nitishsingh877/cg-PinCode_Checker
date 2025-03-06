@@ -8,7 +8,7 @@ const pinCodeRegex = RegExp("[0-9][0-9]{5}")
 // }
 
 function validatePin(pin) {
-    let pinRegex = /^[0-9]{5}[0-9]$/;
+    let pinRegex = /^[0-9]{3}\s?[0-9]{3}$/;
     if (pinRegex.test(pin)) {
       console.log(pin + " is a valid PIN");
     } else {
