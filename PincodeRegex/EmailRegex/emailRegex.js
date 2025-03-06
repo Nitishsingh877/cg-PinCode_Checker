@@ -1,5 +1,5 @@
 function validateEmail(email){
-    let emailRegex = /^[a-zA-Z0-9]+([._+-][a-zA-Z0-9]+)?@bridgelabz\.co(\.[a-zA-Z]{2,})?$/;
+    let emailRegex = /^[a-zA-Z0-9]+([._+-][a-zA-Z0-9]+)?@bridgelabz\.co(\.[a-zA-Z]{2})?$/;
     if(emailRegex.test(email)){
       console.log(email+ " is Valid Email ✅ ");
     }else{
